@@ -4,4 +4,3 @@ from django.http import HttpResponse
 def projects(request):
     return HttpResponse("This is the projects respornse")
 
-# Create your views here.
