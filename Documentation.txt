@@ -31,3 +31,8 @@ Note: [ We will create folder to store our templates.
 3. In settings.py, import os
 4. settings.py -> TEMPLATES -> 'DIRS' -> add the file path (os.path.join(BASE_DIR, 'templates')
 5. Now go to views.py and import render and create method to render templates files.
+
+
+
+Jinja:
+{% include 'navbar.html' %}
