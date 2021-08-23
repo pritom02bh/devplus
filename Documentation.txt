@@ -10,9 +10,21 @@ Install requirements in the Env:
 --> pip install django
 --> pip list
 
-Django Commands:
 
+Django Commands
+
+Create an Apps:
 --> django-admin startproject devplus(name of the project)
---> cd devplus
---> python manage.py runserver
 
+1. register the apps into the settings.py(Installed_Apps)
+2. Create apps urls.py and define the views.py.
+3. Include the path of apps urls.py into the main urls.py(root)urls
+4. Now, start work in views.
+
+Creating Templates:
+
+Note: [ We will create folder to store our templates. 
+        The templates will render into the views.py.]
+
+1. Create the folder named templates (could be any name)
+2. 
