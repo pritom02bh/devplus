@@ -1,9 +1,9 @@
 Creating Virtual Environment:
 
 --> pip install virtualenv
---> virtualenv DSM(name of ENV)
---> DSM\scripts\activate   (activate the virtual env)
---> DSM\scripts\deactivate
+--> virtualenv env(name)
+--> env\scripts\activate   (activate the virtual env)
+--> env\scripts\deactivate
 
 Install requirements in the Env:
 
